@@ -82,7 +82,7 @@ router.put("/me/password", auth, async (req, res) => {
 });
 
 /**
- * (Optionnel) GET /users/:id
+ * GET /users/:id
  * Infos publiques d'un utilisateur
  */
 router.get("/:id", async (req, res) => {
